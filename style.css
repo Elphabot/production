@@ -158,6 +158,12 @@ table, td {
   color: #ffffff;
 }
 
+a {
+  color: #00b3ff;
+}
+a:hover{
+  color: #c2ffa8;
+}
 .footer {
     display: flex;
     flex-direction: row;
@@ -165,6 +171,29 @@ table, td {
     padding: 32px;
     gap: 10px;
     border-top: 0.4px solid #4b4747;
-  
-    
+}
+.ico {
+  color: whitesmoke;
+}
+
+.footer-content{
+  height:100px;
+  display:flex;
+  width:100%;
+  padding-left:200px;
+  padding-right:auto-flow;
+}
+.footer-section {
+  width:40%;
+}
+.footer-section li {
+  list-style:none;
+  padding-bottom: 7px;
+}
+.footer-section li a {
+  text-decoration:none;
+  color:#00000;
+}
+.footer-section h3 {
+  color: #;
 }
